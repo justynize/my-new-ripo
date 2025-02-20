@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+    background-color: rgb(36, 13, 58);
+}
+nav ul{
+list-style: none;
+display: flex;
+align-items: last baseline;
+margin: 20px;
+}
+nav h1.Hone{
+    color: green;
+}
+nav ul li{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
+nav button{
+    /* display: flex; */
+
+    align-items: center;
+}
+nav.one button.log{
+    color: red;
+}
+nav .Htwo{
+    color: white;
+    font-size: 50px;
+}
+nav p{color: rgb(219, 213, 175);}
+
+nav.two button.Btwo{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
